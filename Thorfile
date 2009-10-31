@@ -70,6 +70,7 @@ class DB < Thor
     dump_schema
   end
 
+  # Translated from bmizerany's sinatra-activerecord rake tasks
   desc "create_migration", "Creates an ActiveRecord migration"
   def create_migration(name, version=nil)
     migrations_dir = File.join("db", "migrate")
