@@ -1,0 +1,5 @@
+/config/settings.yml
+/config/database.yml
+/tmp
+/webrat.log
+/vendor/webrat/vendor

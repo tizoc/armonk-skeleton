@@ -1,0 +1,1 @@
+Monk skeleton with ActiveRecord.
