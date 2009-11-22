@@ -93,7 +93,7 @@ class DB < Thor
     end
   end
 
-  desc "dump_schema", "Creates db/schema.db"
+  desc "dump_schema", "Creates db/schema.rb"
   def dump_schema(schema_file="#{File.dirname(__FILE__)}/db/schema.rb")
     load 'init.rb'
     require 'active_record/schema_dumper'
