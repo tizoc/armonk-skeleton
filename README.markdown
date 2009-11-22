@@ -9,6 +9,8 @@ Thor tasks:
                         # version to be migrated to. After the migration is
                         # complete db/schema.rb is regenerated
 
-    db:create_migration # Creates an ActiveRecord migration
+    db:create_migration # Creates an ActiveRecord migration, takes the migration
+                        # name as a parameter. The current timestamp is used as
+                        # the version.
 
-    db:dump_schema      # Creates db/schema.rb
+    db:dump_schema      # Generates db/schema.rb
